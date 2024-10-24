@@ -1,0 +1,14 @@
+.single {
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .singlePost {
+        width: 100%;
+        overflow: hidden;
+        margin-right: 10px;
+
+    }
+    .sidebar{
+        display: none;
+    }
+}

@@ -1,0 +1,111 @@
+.write {
+    padding-top: 50px;
+}
+
+.writeImg {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.writeForm {
+    position: relative;
+}
+
+.writeFormGroup {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.writeIcon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(121, 118, 118);
+    cursor: pointer;
+}
+
+.writeInput {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+
+.writeInput:focus {
+    outline: none;
+}
+
+.writeText {
+    font-size: 20px;
+    height: 100vh;
+}
+
+.writeSubmit {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.writeText .ql-container {
+    font-size: 20px;
+    height: calc(100vh - 150px);
+  }
+  
+  .writeText .ql-editor {
+    font-size: 20px;
+    padding: 0;
+  }
+  
+  .writeText .ql-toolbar {
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .writeImgContainer {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .removeImg {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .removeImg:hover {
+    background-color: rgba(255, 0, 0, 0.9);
+  }
+  
+  .error-message {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+  }
+  
+  .writeSubmit:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }

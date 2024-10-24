@@ -1,0 +1,247 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+}
+
+.singlePostTitleInput {
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+  color: #b39656;
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.singlePostDescInput {
+  border: none;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDescInput:focus {
+  outline: none;
+}
+
+.singlePostButton {
+  width: 100px;
+  border: none;
+  background-color: teal;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+.singlePostDescInput .ql-container {
+  font-size: 18px;
+}
+
+.singlePostDesc img {
+  max-width: 100%;
+  height: auto;
+}
+
+.singlePostDesc h1, .singlePostDesc h2, .singlePostDesc h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.singlePostDesc ul, .singlePostDesc ol {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.singlePostDesc blockquote {
+  border-left: 3px solid #ccc;
+  margin-left: 20px;
+  padding-left: 10px;
+  color: #666;
+}
+.postView {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.postTitle {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.postImg {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.postContent {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.postContent table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.postContent th, .postContent td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.postContent th {
+  background-color: #f2f2f2;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.imageUploadContainer {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.imageUploadInput {
+  margin-top: 10px;
+}
+
+.uploadingMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.singlePostButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.imageUploadContainer {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.imageUploadInput {
+  margin-top: 10px;
+}
+
+.uploadingMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.singlePostButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.imageContainer {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.debug-info {
+  margin-top: 5px;
+  padding: 5px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.imageError {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff3f3;
+  border: 1px solid #ffcdd2;
+  color: #d32f2f;
+  border-radius: 4px;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
