@@ -44,5 +44,6 @@
     "daisyui": "^4.12.10",
     "tailwindcss": "^3.4.4"
   },
-  "proxy": "http://localhost:5000/api/"
+  
+  "proxy": "https://blogify-backend-2bnz.onrender.com/"
 }

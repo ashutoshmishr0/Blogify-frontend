@@ -5,7 +5,7 @@ import { Context } from "../../context/Context";
 
 const Topbar = () => {
    const { user, dispatch } = useContext(Context);
-  const PF = "http://localhost:5000/images/"
+  // const PF = "http://localhost:5000/images/"
 
   const getProfileImageUrl = () => {
     if (!user) return "/default-avatar.png";
